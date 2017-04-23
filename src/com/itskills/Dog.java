@@ -28,4 +28,8 @@ public class Dog extends Mammal implements Carnivorous {
 		// TODO Auto-generated method stub
 	}
 
+	
+	public static void main(String[] args) {
+		System.out.println("Dog called");
+	}
 }
