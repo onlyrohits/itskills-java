@@ -20,7 +20,7 @@ public class MountainBicycle extends Bicycle { // Sub Class
 
 	public MountainBicycle(int startCadence, int startSpeed, int startGear, String manufacturerName,
 			float bicycleHeight, float bicycleWeight, int[] gears) {
-		super(startCadence, startSpeed, startGear, manufacturerName, bicycleHeight, bicycleWeight, gears);
+		//super(startCadence, startSpeed, startGear, manufacturerName, bicycleHeight, bicycleWeight, gears);
 		// TODO Auto-generated constructor stub
 		setPillionSeat();
 		addExtraStrength();
