@@ -1,10 +1,10 @@
 package com.itskills;
 
-public class Dog extends Mammal implements Carnivorous {
+public class Cat extends Mammal {
 
 	@Override
 	public void move() {
-		System.out.println("Dog running..");
+		System.out.println("cat running..");
 		// walk on 2 legs
 		
 	}
@@ -17,15 +17,11 @@ public class Dog extends Mammal implements Carnivorous {
 
 	@Override
 	public void breathe() {
-		super.breathe();
+		System.out.println("Cat breathes");
 		// TODO Auto-generated method stub
 		
 	}
 
-	@Override
-	public void eatMeat() {
-		System.out.println("eating meat");
-		// TODO Auto-generated method stub
-	}
+	
 
 }
